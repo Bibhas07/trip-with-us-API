@@ -30,6 +30,11 @@ This project has **7 endpoints**:
    `GET /hotels`
 
 ---
+## API Hosting
+
+The API has been hosted at:  
+[Trip With Us API](https://trip-with-us-api-4ran.vercel.app/)
+
 
 ## Project Demo
 
