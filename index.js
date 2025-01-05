@@ -233,7 +233,9 @@ app.get('/hotels/sort/pricing', (req, res) => {
     res.json({ hotels: hotelsCopy });
   } else {
     let hotelsCopy = hotels.slice();
-    hotelsCopy.sort(sortDescending);
+    hotelsCopy.sort((hotel1, hotel2) =>
+      sortDescending(hotel1, hotel2, 'price')
+    );
     res.json({ hotels: hotelsCopy });
   }
 });
