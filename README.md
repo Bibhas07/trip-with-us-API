@@ -1,16 +1,37 @@
-# Simple express demo
+# Simple Express Demo
 
 > Express: fast, unopinionated, minimalist web framework for Node.js
 
 This project shows a simple express server serving a single HTML page and using `express.static` to serve static files.
 
-This Project has 7 endpoints:
-Endpoint 1: Get the hotels sorted by pricing(hotels/sort/pricing?pricing=low-to-high)
-Endpoint 2: Get the hotels sorted based on their Ratings(hotels/sort/rating?rating=low-to-high)
-Endpoint 3: Get the Hotels sorted based on their Reviews(hotels/sort/reviews?reviews=least-to-most)
-Endpoint 4: Filter the hotels based on the Hotel Amenity(hotels/filter/amenity?amenity=spa)
-Endpoint 5: Filter the hotels based on the selected Country(hotels/filter/country?country=india)
-Endpoint 6: Filter the hotels based on the selected Category(hotels/filter/category?category=luxury)
-Endpoint 7: Send all hotels(/hotels)
+## Endpoints
 
-The Project working can be seen in this site(https://bd2-hotel-listing.vercel.app/)
+This project has **7 endpoints**:
+
+1. **Get the hotels sorted by pricing**  
+   `GET /hotels/sort/pricing?pricing=low-to-high`
+
+2. **Get the hotels sorted based on their ratings**  
+   `GET /hotels/sort/rating?rating=low-to-high`
+
+3. **Get the hotels sorted based on their reviews**  
+   `GET /hotels/sort/reviews?reviews=least-to-most`
+
+4. **Filter the hotels based on the hotel amenity**  
+   `GET /hotels/filter/amenity?amenity=spa`
+
+5. **Filter the hotels based on the selected country**  
+   `GET /hotels/filter/country?country=india`
+
+6. **Filter the hotels based on the selected category**  
+   `GET /hotels/filter/category?category=luxury`
+
+7. **Send all hotels**  
+   `GET /hotels`
+
+---
+
+## Project Demo
+
+The project working can be seen on this site:  
+[Hotel Listing Demo](https://bd2-hotel-listing.vercel.app/)
